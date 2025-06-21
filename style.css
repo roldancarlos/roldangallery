@@ -11,8 +11,8 @@
 }
 
 .menuopen {
-    height: 100vh;
-    width: 100vw;
+    height: 100dvh;
+    width: 100dvw;
     background-color: rgba(0, 0, 0, 0.841);
     top: 0;
     display: none;
@@ -38,7 +38,7 @@
     color: white;
     text-decoration: none;
     font-size: 3rem;
-    margin: 1vh;
+    margin: 1dvh;
     transition: 0.2s ease-in-out;
 }
 
@@ -76,7 +76,6 @@ body {
     justify-content: space-evenly;
     padding: 10px 20px;
     background-color: rgb(0, 0, 0);
-    z-index;
 }
 
 .bottom img {
@@ -87,15 +86,15 @@ body {
 .contact1 {
     color: white;
     text-decoration: none;
-    font-size: 2.5vw;
+    font-size: 2.5dvw;
     z-index: 1;
 }
 
 /* --- Imagen de Cabecera con Fondo --- */
 .photop {
-    font-size: 1vh;
+    font-size: 1dvh;
     color: rgb(255, 255, 255);
-    height: 40vh;
+    height: 40dvh;
     width: 100%;
     text-align: end;
     overflow: hidden;
@@ -127,7 +126,7 @@ body {
 .photop2 {
     font-size: 1vh;
     color: rgb(255, 255, 255);
-    height: 40vh;
+    height: 40dvh;
     width: 100%;
     text-align: end;
     overflow: hidden;
@@ -163,7 +162,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-    width: 100vw;
+    width: 100dvw;
 }
 
 /* --- Grid de Ítems --- */
@@ -230,12 +229,12 @@ h3 {
 
     .top img,
     .bottom img {
-        height: 20vw;
+        height: 20dvw;
         /* Adjust for mobile */
     }
 
     .contact1 {
-        font-size: 5vw;
+        font-size: 5dvw;
     }
 
     .items {
@@ -261,12 +260,12 @@ h3 {
 
     .top img,
     .bottom img {
-        height: 20vw;
+        height: 20dvw;
         /* Adjust for mobile */
     }
 
     .contact1 {
-        font-size: 5vw;
+        font-size: 5dvw;
     }
 
     .items {
