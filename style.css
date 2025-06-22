@@ -47,6 +47,7 @@ color: rgb(138, 138, 138);
 }
 /* --- Body --- */
 body {
+    height: 100%;
     background-color: rgb(30, 30, 30);
     overflow-x: hidden;
 }
@@ -86,15 +87,15 @@ body {
 .contact1 {
     color: white;
     text-decoration: none;
-    font-size: 2.5dvw;
+    font-size: 2.5vw;
     z-index: 1;
 }
 
 /* --- Imagen de Cabecera con Fondo --- */
 .photop {
-    font-size: 1dvh;
+    font-size: 1vh;
     color: rgb(255, 255, 255);
-    height: 40dvh;
+    height: 400px;
     width: 100%;
     text-align: end;
     overflow: hidden;
@@ -126,7 +127,7 @@ body {
 .photop2 {
     font-size: 1vh;
     color: rgb(255, 255, 255);
-    height: 40dvh;
+    height: 400px;
     width: 100%;
     text-align: end;
     overflow: hidden;
@@ -162,11 +163,12 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-    width: 100dvw;
+    width: 100vw;
 }
 
 /* --- Grid de Ítems --- */
 .items {
+    overflow: hidden;
     width: 80vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -229,7 +231,7 @@ h3 {
 
     .top img,
     .bottom img {
-        height: 20dvw;
+        height: 20vw;
         /* Adjust for mobile */
     }
 
@@ -260,7 +262,7 @@ h3 {
 
     .top img,
     .bottom img {
-        height: 20dvw;
+        height: 20vw;
         /* Adjust for mobile */
     }
 
